@@ -1,5 +1,5 @@
 package cmd
 
 import (
-	_ "github.com/rai-project/logger/hooks"
+	_ "github.com/c3sr/logger/hooks"
 )

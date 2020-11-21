@@ -24,26 +24,29 @@
 #   go-tests = true
 #   unused-packages = true
 
-
 [[constraint]]
   name = "github.com/Unknwon/com"
-  version = "1.0.0"
+  version = "1.0.1"
 
 [[constraint]]
   branch = "master"
-  name = "github.com/rai-project/config"
+  name = "github.com/c3sr/config"
 
 [[constraint]]
   branch = "master"
-  name = "github.com/rai-project/logger"
+  name = "github.com/c3sr/logger"
 
 [[constraint]]
-  branch = "master"
   name = "github.com/spf13/cobra"
+  version = "0.0.5"
 
 [[constraint]]
-  branch = "master"
   name = "github.com/spf13/jwalterweatherman"
+  version = "1.1.0"
+
+[[override]]
+  name = "github.com/russross/blackfriday"
+  version = "=1.5.2"
 
 [prune]
   go-tests = true
