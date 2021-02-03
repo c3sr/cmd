@@ -24,6 +24,14 @@
 #   go-tests = true
 #   unused-packages = true
 
+[[constraint]]
+  name = "github.com/c3sr/config"
+  version = "0.1.0"
+
+[[constraint]]
+  name = "github.com/c3sr/logger"
+  version = "0.1.0"
+
 [[override]]
   name = "github.com/russross/blackfriday"
   version = "=1.5.2"
